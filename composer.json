@@ -11,6 +11,10 @@
         {
             "type": "composer",
             "url": "https://nova.laravel.com"
+        },
+        {
+            "type": "path",
+            "url": "../../nova-components/laraberg"
         }
     ],
     "require": {
@@ -18,7 +22,7 @@
         "laravel/nova": "*",
         "symfony/thanks": "*",
         "unisharp/laravel-filemanager": "*",
-        "van-ons/laraberg": "*"
+        "van-ons/laraberg": "dev-ixbt"
     },
     "autoload": {
         "psr-4": {
